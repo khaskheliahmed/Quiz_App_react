@@ -7,7 +7,7 @@ function App() {
   const[question , setQuestion] =  useState(null)
   const[curentIndex , setCurrentIndex] = useState(0)
   const [score, setScore] = useState(0);
-  const [isQuizFinished, setIsQuizFinished] = useState(false)
+ 
 
   const input = useRef([])
 
